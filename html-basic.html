@@ -23,7 +23,7 @@
   <hr>
   <hr>
   <marquee behavior="scroll" direction="right" height = ' 20px'>弹幕.....</marquee>
-    <p> 这几种强调 <strong>有什么 区别呢？</strong> <u>这个呢?</u> <i>这个呢？</i>
+    <p> <em>这几种强调</em>  <strong> 有什么 区别呢？</strong> <u>这个呢?</u> <i>这个呢？</i>
     </p>
 
     <p>&lt;!-- 注释........---></p>
@@ -52,6 +52,102 @@
           <li>2</li>
           <li>3</li>
         </ul>
+
+        <hr>
+        <dl>
+          <dt>编剧</dt>
+            <dd>aa</dd>
+          <dt>策划</dt>
+            <dd>bb</dd>
+          <dt>演员</dt>
+            <dd>cc</dd>
+        </dl>
+        <hr>
+        <!-- day7 11.9 -->
+        <label >
+        <form action="https://www.google.com.hk/search" target="_blank">
+            <h3>Google Search</h3>
+            <input type="hidden" name="edeg"  value="UTF-8">
+            <input type="hidden" name="sourceid" value="chrome">
+            <input type="text" placeholder="在这里搜索..." required name = 'q'>
+          <!-- <button>Search your message..</button> -->
+            <input type="submit" value="submit">
+          </form>
+        </label>
+        <hr>
+
+        <form>
+           <p>个人信息调查表</p>
+          <dl>
+           <dt>性别</dt>
+                <dd>
+                  <label >
+                    <input type="radio" name="gender" value="male">
+                    男
+                  </label>
+                  <label>
+                    <input type="radio" name="gender" value="female">
+                    女
+                  </label>
+                </dd>
+
+              <dt>年龄</dt>
+                <dd>
+                  <select name="age" >
+                    <option hidden value>请选择</option>
+                    <optgroup label="幼年期">
+                      <option value="1-6">1+</option>
+                      <option value="6-12">6+</option>
+                    </optgroup>
+                    <optgroup label="成长期">
+                      <option value="12-18">12+</option>
+                      <option value="18-35">18+</option>
+                    </optgroup>
+                    <optgroup label="成熟期">
+                        <option value="35-45">35+</option>
+                        <option value="45-60">45+</option>
+                        <option value="60+">60+</option>
+                    </optgroup>
+                  </select>
+                </dd>
+                <dt>生日</dt>
+                  <dd>
+                  <input type="date" name="bir">
+                  </dd>
+              <dt>生辰</dt>
+                <dd>
+                  <input type="time" name="time" value="">
+                </dd>
+              <dt>照片</dt>
+                <dd>
+                  <label >
+                  <input hidden type="file" name="png" >
+                    <span style="border: 1px solid; background-color: darkgray;">
+                    点我上传图片
+                  </span>
+                  </label>
+                </dd>
+
+              <dt>颜色</dt>
+                  <dd><input type="color"></dd>
+              <dt>自我介绍</dt>
+                 <dd>
+                 <textarea name="self" id="" cols="30" rows="10">&lt/textarea> </textarea>
+                 </textarea>
+                </dd>
+              <fieldset>
+                <legend>禁用</legend>
+                <input type="text" >
+                <input type="text" >
+                <input type="text" >
+                <input type="text" >
+              </fieldset>
+              <button >提交</button>
+              <button type="menu">目录</button>
+              <button type="reset">重置</button>
+              </dl>
+        </form>
+      <hr>
 
         <p>
           <<<<<<<<<<<<<<<>>>>>>>>>>>>>>
@@ -99,5 +195,6 @@
           <<<<<<<<<<<<<<<>>>>>>>>>>>>>>
         </p>
 </body>
+
 
 </html>
