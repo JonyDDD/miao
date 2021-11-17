@@ -8,9 +8,6 @@
     *:link{
       text-decoration: none;
     }
-
-
-
     .a[tabindex="1"]:focus{
       color:blue;
     }
@@ -58,7 +55,19 @@
     .b ul li:nth-of-type(-n+50):nth-of-type(n+35) {
       color: blue;
     }
-
+    /*  */
+    .prime ul li:first-child(){
+      color: sandybrown;
+    }
+    .prime ul li:nth-child(2n+4){
+      color: sandybrown;
+    }
+    .prime ul li:nth-child(3n+6){
+      color: sandybrown;
+    }
+    .primr ul li:not(:nth-child(2n+4)):nth-child(3n+6){
+      color: steelblue;
+    }
 
     </style>
   </head>
